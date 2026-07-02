@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TerraReFlow, PBC — We build the way back.</title>
+  <meta name="description" content="TerraReFlow, PBC is a planetary-regeneration infrastructure company. We build and own the assets that pull the Earth's most degraded land back inside the planetary boundaries — turning brownfields, landfills, and contaminated ground into clean firm power and living systems.">
+  <meta property="og:title" content="TerraReFlow, PBC — We build the way back.">
+  <meta property="og:description" content="Planetary-regeneration infrastructure. Dead land, turned into clean firm power and living systems.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3CradialGradient id='g' cx='50%25' cy='58%25' r='62%25'%3E%3Cstop offset='0' stop-color='%23FFD98A'/%3E%3Cstop offset='.45' stop-color='%23FF6A2B'/%3E%3Cstop offset='1' stop-color='%230B0B0D'/%3E%3C/radialGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='14' fill='%230B0B0D'/%3E%3Ccircle cx='32' cy='34' r='22' fill='url(%23g)'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://api.fontshare.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://api.fontshare.com/v2/css?f[]=clash-display@500,600,700&f[]=satoshi@400,500,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ============ NAV ============ -->
+  <header class="site-nav" id="top">
+    <div class="nav-inner">
+      <a class="wordmark" href="#top">TERRAREFLOW<span class="wordmark-pbc mono">PBC</span></a>
+      <nav class="nav-links" id="nav-links" aria-label="Primary">
+        <a href="#breach">The Breach</a>
+        <a href="#build">What We Build</a>
+        <a href="#model">The Model</a>
+        <a href="#conviction">Conviction</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="btn btn-magma nav-cta" href="#contact">Partner with us</a>
+      <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Menu">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ============ SECTION 1 — HERO ============ -->
+    <section class="hero">
+      <div class="core-glow" aria-hidden="true"></div>
+      <div class="hero-inner">
+        <p class="eyebrow" data-reveal>Public Benefit Corporation · Planetary Regeneration Infrastructure</p>
+        <h1 class="hero-title" data-reveal style="--rd:.08s">We build<br>the way back.</h1>
+        <p class="lede" data-reveal style="--rd:.18s">TerraReFlow builds and owns the infrastructure that pulls the Earth's most degraded land back inside its limits&thinsp;&mdash;&thinsp;turning brownfields, landfills, and contaminated ground into clean firm power and living systems.</p>
+        <div class="hero-ctas" data-reveal style="--rd:.28s">
+          <a class="btn btn-magma btn-lg" href="#build">See what we build</a>
+          <a class="btn btn-ghost btn-lg" href="#breach">The state of the planet</a>
+        </div>
+      </div>
+      <a class="scroll-cue mono" href="#breach" aria-hidden="true" tabindex="-1">Scroll<span class="cue-line"></span></a>
+    </section>
+
+    <!-- ============ SECTION 2 — THE BREACH ============ -->
+    <section id="breach" class="section section-breach">
+      <div class="container">
+        <p class="eyebrow" data-reveal>The State of the Planet · 2025</p>
+        <h2 class="display-xl" data-reveal style="--rd:.06s">Seven of nine.</h2>
+        <p class="section-lede" data-reveal style="--rd:.12s">For eleven thousand years, nine planetary boundaries held the stable world civilization was built on. As of 2025, seven are breached&thinsp;&mdash;&thinsp;climate, biosphere, land, freshwater, nutrient cycles, novel entities, and now the oceans. Only two remain safe.</p>
+
+        <div class="ring-layout" data-reveal style="--rd:.15s">
+          <figure class="ring-figure">
+            <svg id="boundaries-ring" viewBox="0 0 1000 1000" role="group" aria-label="Planetary boundaries diagram: nine wedges around Earth. Seven push past the safe operating space ring; two remain inside it. Select a boundary for detail."></svg>
+            <figcaption class="ring-caption mono">Dashed ring&thinsp;=&thinsp;safe operating space&ensp;·&ensp;wedges past it are breached&ensp;·&ensp;lengths stylized</figcaption>
+          </figure>
+          <div class="ring-side">
+            <div id="ring-detail" class="ring-detail" aria-live="polite"></div>
+            <ol id="ring-legend" class="ring-legend" aria-label="The nine planetary boundaries"></ol>
+          </div>
+        </div>
+
+        <noscript>
+          <div class="ring-noscript">
+            <p class="mono">THE NINE PLANETARY BOUNDARIES · 2025 PLANETARY HEALTH CHECK</p>
+            <ul>
+              <li><strong>Climate change</strong> — breached</li>
+              <li><strong>Biosphere integrity</strong> — breached</li>
+              <li><strong>Land-system change</strong> — breached</li>
+              <li><strong>Freshwater change</strong> — breached</li>
+              <li><strong>Biogeochemical flows (N &amp; P)</strong> — breached</li>
+              <li><strong>Novel entities</strong> — breached</li>
+              <li><strong>Ocean acidification</strong> — breached (newly, 2025)</li>
+              <li><strong>Stratospheric ozone</strong> — safe, healing</li>
+              <li><strong>Aerosol loading</strong> — safe</li>
+            </ul>
+          </div>
+        </noscript>
+
+        <p class="closing-line" data-reveal>A boundary can be crossed. The ozone layer proves it can also be pulled back. <em>The window is still open.</em></p>
+      </div>
+    </section>
+
+    <!-- ============ SECTION 3 — THE GROUND WE STAND ON ============ -->
+    <section id="ground" class="section">
+      <div class="container">
+        <p class="eyebrow" data-reveal>Where We Fight</p>
+        <h2 class="display-lg" data-reveal style="--rd:.06s">Four of those seven are fought in the earth itself.</h2>
+        <div class="ground-grid">
+          <article class="ground-card" data-reveal>
+            <p class="card-label mono">Novel entities</p>
+            <p>Chemical pollution, plastics, and contamination accumulating in land and water.</p>
+          </article>
+          <article class="ground-card" data-reveal style="--rd:.08s">
+            <p class="card-label mono">Land-system change</p>
+            <p>Ground degraded, converted, poisoned, and abandoned.</p>
+          </article>
+          <article class="ground-card" data-reveal style="--rd:.16s">
+            <p class="card-label mono">Biosphere integrity</p>
+            <p>Biodiversity collapsing faster than any time in human history.</p>
+          </article>
+          <article class="ground-card" data-reveal style="--rd:.24s">
+            <p class="card-label mono">Biogeochemical flows</p>
+            <p>The nitrogen and phosphorus cycles broken by how we grow and waste.</p>
+          </article>
+        </div>
+        <p class="transition-line" data-reveal>We don't offset them. <em>We build companies to reverse them.</em></p>
+      </div>
+    </section>
+
+    <!-- ============ THE TURN — transformation moment ============ -->
+    <div class="turn" id="turn" role="img" aria-label="Degraded dark ground transforming into a geothermal power plant with restored green land.">
+      <svg class="turn-scene" viewBox="0 155 1440 265" preserveAspectRatio="xMidYMax slice" aria-hidden="true">
+        <defs>
+          <radialGradient id="turnGlow" cx="50%" cy="50%" r="50%">
+            <stop offset="0" stop-color="#FFD98A" stop-opacity=".55"/>
+            <stop offset=".45" stop-color="#FF6A2B" stop-opacity=".22"/>
+            <stop offset="1" stop-color="#FF6A2B" stop-opacity="0"/>
+          </radialGradient>
+          <clipPath id="turnClip"><rect id="turn-clip-rect" x="0" y="0" width="1440" height="420"/></clipPath>
+        </defs>
+
+        <!-- BEFORE: dead ground -->
+        <g class="turn-before">
+          <path d="M0 252 L130 214 L268 242 L424 194 L566 236 L724 202 L884 246 L1042 208 L1204 242 L1322 218 L1440 236 L1440 420 L0 420 Z" fill="#131418"/>
+          <path d="M0 302 L162 266 L332 302 L522 262 L702 300 L902 270 L1102 306 L1292 276 L1440 300 L1440 420 L0 420 Z" fill="#0f1013"/>
+          <path d="M0 354 L204 346 L452 354 L742 344 L1032 354 L1282 346 L1440 352 L1440 420 L0 420 Z" fill="#0c0c0f"/>
+          <path d="M186 356 l34 22 l-8 20 M560 350 l-26 30 l10 22 M968 356 l30 26 l-12 20 M1250 352 l-24 28" stroke="#1d1e24" stroke-width="2" fill="none"/>
+        </g>
+
+        <!-- AFTER: clean power + living ground (revealed) -->
+        <g class="turn-after" clip-path="url(#turnClip)">
+          <path d="M0 252 L130 214 L268 242 L424 194 L566 236 L724 202 L884 246 L1042 208 L1204 242 L1322 218 L1440 236 L1440 420 L0 420 Z" fill="#131f19"/>
+          <path d="M0 302 L162 266 L332 302 L522 262 L702 300 L902 270 L1102 306 L1292 276 L1440 300 L1440 420 L0 420 Z" fill="#0f1a13"/>
+          <path d="M0 354 L204 346 L452 354 L742 344 L1032 354 L1282 346 L1440 352 L1440 420 L0 420 Z" fill="#0c130e"/>
+          <path d="M0 354 L204 346 L452 354 L742 344 L1032 354 L1282 346 L1440 352" stroke="#2c5a41" stroke-width="2" fill="none" opacity=".55"/>
+
+          <ellipse cx="1030" cy="330" rx="280" ry="100" fill="url(#turnGlow)"/>
+
+          <!-- transmission pylon + lines -->
+          <g stroke="#3a3e48" stroke-width="2" fill="none" opacity=".85">
+            <path d="M780 348 L780 272 M762 282 L798 282 M770 348 L780 316 L790 348"/>
+            <path d="M798 282 Q 878 296 958 310" stroke-width="1.4" opacity=".7"/>
+            <path d="M762 282 Q 664 300 566 316" stroke-width="1.4" opacity=".7"/>
+          </g>
+
+          <!-- geothermal plant -->
+          <g>
+            <rect x="956" y="300" width="132" height="48" rx="4" fill="#1c1f26" stroke="#2c303a" stroke-width="1.5"/>
+            <rect x="992" y="250" width="22" height="52" rx="3" fill="#242832" stroke="#343947" stroke-width="1.5"/>
+            <rect x="1034" y="262" width="18" height="40" rx="3" fill="#242832" stroke="#343947" stroke-width="1.5"/>
+            <circle cx="972" cy="324" r="2.6" fill="#FFD98A"/>
+            <circle cx="1072" cy="324" r="2.6" fill="#FFD98A"/>
+            <!-- injection wells into the ground -->
+            <path d="M1003 348 L1003 404 M1043 348 L1043 404" stroke="#FF6A2B" stroke-width="3" stroke-linecap="round" opacity=".9"/>
+            <circle cx="1003" cy="404" r="4" fill="#FF6A2B" opacity=".8"/>
+            <circle cx="1043" cy="404" r="4" fill="#FF6A2B" opacity=".8"/>
+            <!-- clean heat rising -->
+            <g stroke="#FFD98A" stroke-width="2.4" fill="none" stroke-linecap="round">
+              <path d="M1003 244 q 7 -13 0 -25 q -7 -12 2 -24" opacity=".55"/>
+              <path d="M1043 256 q -6 -12 0 -23 q 6 -11 -2 -22" opacity=".4"/>
+            </g>
+          </g>
+
+          <!-- life returning -->
+          <g stroke="#4FB07A" stroke-width="2" stroke-linecap="round" fill="none">
+            <path d="M140 352 l0 -11 M134 352 l-4 -8 M146 352 l4 -8"/>
+            <path d="M330 350 l0 -10 M325 350 l-4 -7 M335 350 l4 -7" opacity=".8"/>
+            <path d="M540 350 l0 -12 M534 350 l-4 -8 M546 350 l4 -8"/>
+            <path d="M700 346 l0 -10 M695 346 l-3 -7 M705 346 l3 -7" opacity=".75"/>
+            <path d="M868 350 l0 -11 M862 350 l-4 -8 M874 350 l4 -8" opacity=".85"/>
+            <path d="M1200 348 l0 -11 M1194 348 l-4 -8 M1206 348 l4 -8"/>
+            <path d="M1340 350 l0 -9 M1335 350 l-3 -7 M1345 350 l3 -7" opacity=".7"/>
+          </g>
+        </g>
+
+        <line id="turn-line" x1="1440" x2="1440" y1="155" y2="420" stroke="#FFD98A" stroke-width="2" opacity="0"/>
+      </svg>
+      <p class="turn-caption mono container">Dead ground in. Clean firm power and living systems out.</p>
+    </div>
+
+    <!-- ============ SECTION 4 — WHAT WE BUILD ============ -->
+    <section id="build" class="section">
+      <div class="container">
+        <p class="eyebrow" data-reveal>The Platform</p>
+        <h2 class="display-lg" data-reveal style="--rd:.06s">One company for each broken system.</h2>
+        <p class="section-lede" data-reveal style="--rd:.12s">TerraReFlow is a platform of asset-owning companies. Each targets a specific planetary boundary. We start where the leverage is highest&thinsp;&mdash;&thinsp;dead land, turned into clean power.</p>
+
+        <div class="units-grid">
+          <article class="unit-card unit-featured" data-reveal>
+            <div class="unit-head">
+              <h3>TerraReCore Energy</h3>
+              <span class="status-chip status-active mono">Active</span>
+            </div>
+            <p>Clean firm power. We convert brownfields, landfills, and mine sites into next-generation geothermal plants that run 24/7, carbon-free&thinsp;&mdash;&thinsp;the energy backbone for everything TerraReFlow builds.</p>
+            <p class="unit-answers mono">Answers → land-system change · climate change</p>
+            <a class="unit-more" href="#terrarecore">First execution unit — deep dive ↓</a>
+          </article>
+
+          <article class="unit-card" data-reveal style="--rd:.06s">
+            <div class="unit-head"><h3>TerraZero</h3><span class="status-chip status-next mono">Next</span></div>
+            <p>Waste and landfill reclamation. Turning contaminated liability into recovered value and restored ground.</p>
+            <p class="unit-answers mono">Answers → novel entities · biogeochemical flows</p>
+          </article>
+
+          <article class="unit-card" data-reveal style="--rd:.1s">
+            <div class="unit-head"><h3>TerraForm</h3><span class="status-chip status-planned mono">Planned</span></div>
+            <p>Land restoration and regeneration of degraded ground.</p>
+            <p class="unit-answers mono">Answers → land-system change · biosphere integrity</p>
+          </article>
+
+          <article class="unit-card" data-reveal style="--rd:.14s">
+            <div class="unit-head"><h3>TerraGrow</h3><span class="status-chip status-planned mono">Planned</span></div>
+            <p>Regenerative agriculture. Repairing the nitrogen and phosphorus cycle.</p>
+            <p class="unit-answers mono">Answers → biogeochemical flows · biosphere integrity</p>
+          </article>
+
+          <article class="unit-card" data-reveal style="--rd:.18s">
+            <div class="unit-head"><h3>TerraBio</h3><span class="status-chip status-planned mono">Planned</span></div>
+            <p>Biosphere and biodiversity restoration.</p>
+            <p class="unit-answers mono">Answers → biosphere integrity</p>
+          </article>
+
+          <article class="unit-card" data-reveal style="--rd:.22s">
+            <div class="unit-head"><h3>TerraMaterials</h3><span class="status-chip status-planned mono">Planned</span></div>
+            <p>Recovered and circular materials.</p>
+            <p class="unit-answers mono">Answers → novel entities</p>
+          </article>
+
+          <article class="unit-card" data-reveal style="--rd:.26s">
+            <div class="unit-head"><h3>TerraFuel</h3><span class="status-chip status-planned mono">Planned</span></div>
+            <p>Clean fuels. Hydrogen as a later expansion layer.</p>
+            <p class="unit-answers mono">Answers → novel entities · climate change</p>
+          </article>
+        </div>
+
+        <p class="footline mono" data-reveal>Portfolio targets 5 of 7 breached boundaries</p>
+      </div>
+    </section>
+
+    <!-- ============ SECTION 5 — TERRARECORE DEEP DIVE ============ -->
+    <section id="terrarecore" class="section section-core">
+      <div class="container">
+        <p class="eyebrow" data-reveal>First Execution Unit</p>
+        <h2 class="display-lg" data-reveal style="--rd:.06s">Clean firm power, built on land nobody else wants.</h2>
+
+        <div class="stats-row">
+          <div class="stat" data-reveal>
+            <p class="stat-num mono">24/7</p>
+            <p class="stat-body">Carbon-free firm power. Geothermal runs when the sun doesn't and the wind won't.</p>
+          </div>
+          <div class="stat" data-reveal style="--rd:.08s">
+            <p class="stat-num mono">~100&thinsp;MW</p>
+            <p class="stat-body">A single plant would deliver roughly $79M in contracted revenue per year at ~$100/MWh.<span class="stat-note mono">Illustrative until contracted</span></p>
+          </div>
+          <div class="stat" data-reveal style="--rd:.16s">
+            <p class="stat-num mono">45Y&thinsp;/&thinsp;48E<span class="stat-plus">+&thinsp;bonus</span></p>
+            <p class="stat-body">Full clean-electricity tax credit, stacked with brownfield energy-community bonuses. Construction-start window runs through 2033.</p>
+          </div>
+        </div>
+
+        <div class="core-cols">
+          <div class="core-how" data-reveal>
+            <h3 class="mono core-subhead">How it works</h3>
+            <p>We pre-sell future power to anchor buyers&thinsp;&mdash;&thinsp;data centers, industrials, utilities&thinsp;&mdash;&thinsp;before we build. That bankable demand unlocks project finance at the asset level. Public and grant capital carries the land cleanup. We keep strategic control of every megawatt: defined-term contracts, dedicated blocks, expansion rights&thinsp;&mdash;&thinsp;anchor buyers never own the whole plant.</p>
+          </div>
+          <div class="core-gates" data-reveal style="--rd:.08s">
+            <h3 class="mono core-subhead">Site screen — three gates</h3>
+            <ol class="gates mono">
+              <li><span>01</span>A bankable geothermal resource is actually present</li>
+              <li><span>02</span>The site is genuinely acquirable — not NPL/CERCLA-encumbered</li>
+              <li><span>03</span>Nearby load isn't already locked up</li>
+            </ol>
+          </div>
+        </div>
+
+        <p class="geo-note mono" data-reveal><span class="geo-dot" aria-hidden="true"></span>Primary geography: Northern Nevada — strong geothermal resource meets live hyperscale demand&ensp;·&ensp;TRC-NV-001</p>
+      </div>
+    </section>
+
+    <!-- ============ SECTION 6 — THE MODEL ============ -->
+    <section id="model" class="section">
+      <div class="container">
+        <p class="eyebrow" data-reveal>How It Compounds</p>
+        <h2 class="display-lg" data-reveal style="--rd:.06s">Built downstream. Owned at the top.</h2>
+        <p class="section-lede" data-reveal style="--rd:.12s">Every project is financed against its own contracted cash flow&thinsp;&mdash;&thinsp;at the project level, not the parent. That lets TerraReFlow build billions in infrastructure while the mission and control stay whole. Development fees seed the next company. Operating assets fund the ones after that. A platform that pays for its own expansion.</p>
+
+        <ol class="roadmap" data-reveal>
+          <li><span class="mono">01</span>Site control</li>
+          <li><span class="mono">02</span>Bankable offtake</li>
+          <li><span class="mono">03</span>Project finance &amp; first close</li>
+          <li><span class="mono">04</span>Repeatable pipeline</li>
+          <li><span class="mono">05</span>Operating portfolio</li>
+          <li><span class="mono">06</span>Capital recycling</li>
+          <li><span class="mono">07</span>Permanent platform</li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ SECTION 7 — OUR CONVICTION ============ -->
+    <section id="conviction" class="section section-conviction">
+      <div class="container conviction-inner">
+        <p class="eyebrow eyebrow-center" data-reveal>Why We Build</p>
+        <h2 class="display-lg" data-reveal style="--rd:.06s">The earth was given to be tended, not spent.</h2>
+        <p class="conviction-body" data-reveal style="--rd:.12s">TerraReFlow is built on the conviction that regenerating creation is not charity or compliance&thinsp;&mdash;&thinsp;it is stewardship, and a calling. We measure success in restored ground, clean power delivered, and systems returned to balance for generations who will never know our name. This is work meant to outlast us.</p>
+      </div>
+    </section>
+
+    <!-- ============ SECTION 8 — CTA / CONTACT ============ -->
+    <section id="contact" class="section section-contact">
+      <div class="container">
+        <h2 class="display-lg" data-reveal>Build the way back with us.</h2>
+        <p class="section-lede" data-reveal style="--rd:.06s">For offtake partners, landowners and municipalities, capital partners, and mission-aligned collaborators.</p>
+
+        <div class="routes-grid">
+          <button class="route-card" data-topic="Offtake &amp; power" data-reveal>
+            <p class="card-label mono">Offtake &amp; power buyers</p>
+            <p>Contract future 24/7 carbon-free firm power&thinsp;&mdash;&thinsp;data centers, industrials, utilities.</p>
+            <span class="route-go mono">Talk to us about offtake →</span>
+          </button>
+          <button class="route-card" data-topic="Land &amp; sites" data-reveal style="--rd:.08s">
+            <p class="card-label mono">Land &amp; site owners</p>
+            <p>Brownfields, closed landfills, mine sites, municipal ground&thinsp;&mdash;&thinsp;liability into value.</p>
+            <span class="route-go mono">Bring us a site →</span>
+          </button>
+          <button class="route-card" data-topic="Capital &amp; partners" data-reveal style="--rd:.16s">
+            <p class="card-label mono">Capital &amp; partners</p>
+            <p>Project-level capital, grants, and mission-aligned collaboration.</p>
+            <span class="route-go mono">Partner with us →</span>
+          </button>
+        </div>
+
+        <form id="contact-form" class="contact-form" data-reveal>
+          <div class="form-row">
+            <div class="field">
+              <label for="cf-name">Name</label>
+              <input id="cf-name" name="name" type="text" autocomplete="name" required>
+            </div>
+            <div class="field">
+              <label for="cf-org">Organization</label>
+              <input id="cf-org" name="org" type="text" autocomplete="organization">
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="field">
+              <label for="cf-email">Email</label>
+              <input id="cf-email" name="email" type="email" autocomplete="email" required>
+            </div>
+            <div class="field">
+              <label for="cf-topic">Reaching out about</label>
+              <select id="cf-topic" name="topic">
+                <option>Offtake &amp; power</option>
+                <option>Land &amp; sites</option>
+                <option>Capital &amp; partners</option>
+                <option>Something else</option>
+              </select>
+            </div>
+          </div>
+          <div class="field">
+            <label for="cf-msg">Message</label>
+            <textarea id="cf-msg" name="message" rows="5" required></textarea>
+          </div>
+          <div class="form-foot">
+            <button type="submit" class="btn btn-magma btn-lg">Send message</button>
+            <p class="form-note mono">Opens your mail client — or write us at <a href="mailto:hello@terrareflow.com">hello@terrareflow.com</a></p>
+          </div>
+        </form>
+
+        <p class="honest-note mono" data-reveal>TerraReFlow, PBC — early-stage. In active site development and partner outreach.</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <p class="wordmark">TERRAREFLOW</p>
+        <p class="footer-mission">Planetary-regeneration infrastructure. We build and own the assets that pull degraded land back inside the planet's limits.</p>
+      </div>
+      <div class="footer-col">
+        <p class="mono footer-head">The platform</p>
+        <ul>
+          <li><a href="#terrarecore">TerraReCore Energy</a></li>
+          <li>TerraZero</li>
+          <li>TerraForm</li>
+          <li>TerraGrow</li>
+          <li>TerraBio</li>
+          <li>TerraMaterials</li>
+          <li>TerraFuel</li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <p class="mono footer-head">Contact</p>
+        <ul>
+          <li><a href="mailto:hello@terrareflow.com">hello@terrareflow.com</a></li>
+          <li><a href="#contact">Partner with us</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p class="mono">TerraReFlow, PBC&ensp;·&ensp;©&nbsp;<span id="year">2026</span>&ensp;·&ensp;We build the way back.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
